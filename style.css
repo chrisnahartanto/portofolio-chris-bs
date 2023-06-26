@@ -1,0 +1,33 @@
+body {
+  background-color: #273036;
+  color: #fff;
+  min-height: 3000px;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #ffb218;
+  background-image: url(img/bg-hero.jpg);
+  background-position: 0 -100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.jumbotron img {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron h1,
+.jumbotron p {
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #000;
+}
+
+#projects {
+  background-color: #ffb218;
+}
+
+section {
+  padding-top: 5rem;
+}
