@@ -8,6 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -61,8 +63,10 @@
           <div class="col"><h2>About Me 😎</h2></div>
         </div>
         <div class="row justify-content-center fs-5 text-md-center">
-          <div class="col-md-4"><p>Hello World! Nama saya Chrisna Hartanto Nugroho dan sekarang saya duduk di bangku SMA dengan usia 15 tahun. Pada masa SMP saya tertarik untuk mempelajari web development.</p></div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
+            <p>Hello World! Nama saya Chrisna Hartanto Nugroho dan sekarang saya duduk di bangku SMA dengan usia 15 tahun. Pada masa SMP saya tertarik untuk mempelajari web development.</p>
+          </div>
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
             <p>Melihat supply & demand yang masih timpang, menjadi motivasi saya untuk terus mempelajari web development dan menjadi fullstack web developer walau jalan yang dilalui sangat sulit dan saya sering merasa stuck 🤣</p>
           </div>
         </div>
@@ -88,7 +92,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="500">
               <img src="img/projects/1.png" class="card-img-top" alt="Project 1" />
               <div class="card-body">
                 <p class="card-text">Website coffeshop sederhana yang dibuat menggunakan html, css, bootstrap, dan sedikit javascript.</p>
@@ -96,7 +100,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
               <img src="img/projects/2.png" class="card-img-top" alt="Project 2" />
               <div class="card-body">
                 <p class="card-text">Website copycat dari tinder yang saya hasilkan melalui html css dengan mengikuti course dari udemy.</p>
@@ -104,7 +108,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="200">
               <img src="img/projects/3.png" class="card-img-top" alt="Project 3" />
               <div class="card-body">
                 <p class="card-text">Website landing page yang saya buat saat menonton WPU dengan bootstrap dan html maupun css.</p>
@@ -112,7 +116,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
               <img src="img/projects/4.png" class="card-img-top" alt="Project 4" />
               <div class="card-body">
                 <p class="card-text">Website menggunakan html dan css saat saya mempelajari sistem kerja grid di css.</p>
@@ -120,7 +124,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="400">
               <img src="img/projects/5.png" class="card-img-top" alt="Project 5" />
               <div class="card-body">
                 <p class="card-text">Website portofolio pertama saya yang dibuat saat mengikuti course angela yu di udemy.</p>
@@ -193,6 +197,13 @@
     </footer>
     <!-- Akhir Footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
 
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbzzMJvRnNJ7I8MTEg_TThLrCiIL12B1gh0uH4ntIgDFYd0yKJtJAC7lMXAIYU7tbPN_Ug/exec";
